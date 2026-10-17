@@ -1,0 +1,19 @@
+# Исполняемые файлы и объектные файлы
+*.exe
+*.o
+*.obj
+
+# Сгенерированные данные экспериментов
+matrixA.txt
+matrixB.txt
+result.txt
+times.csv
+*.png
+
+# Служебные файлы IDE/OS
+.vscode/
+.idea/
+Thumbs.db
+
+# Visual Studio
+.vs/
