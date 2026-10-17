@@ -9,6 +9,7 @@ matrixB.txt
 result.txt
 times.csv
 *.png
+!Lab1/time_vs_N.png
 
 # Служебные файлы IDE/OS
 .vscode/
