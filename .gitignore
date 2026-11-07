@@ -1,20 +1,14 @@
-# Исполняемые файлы и объектные файлы
 *.exe
 *.o
-*.obj
-
-# Сгенерированные данные экспериментов
-matrixA.txt
-matrixB.txt
-result.txt
-times.csv
+# Игнорировать сгенерированные файлы во всех папках
+**/matrixA.txt
+**/matrixB.txt
+**/result.txt
+**/times.csv
 *.png
+# Но разрешить сохранять примеры и графики для отчета (исключения)
+!Lab1/matrixA.txt
+!Lab1/matrixB.txt
+!Lab1/result.txt
 !Lab1/time_vs_N.png
-
-# Служебные файлы IDE/OS
-.vscode/
-.idea/
-Thumbs.db
-
-# Visual Studio
-.vs/
+!Lab2/speedup_vs_threads.png
